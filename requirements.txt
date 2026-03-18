@@ -10,3 +10,4 @@ openpyxl
 matplotlib
 accelerate
 sentencepiece
+altair<5
