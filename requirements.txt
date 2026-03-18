@@ -11,3 +11,5 @@ matplotlib
 accelerate
 sentencepiece
 altair<5
+sentencepiece
+protobuf
