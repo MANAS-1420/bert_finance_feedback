@@ -11,3 +11,4 @@ matplotlib
 accelerate
 sentencepiece
 altair<5
+python==3.10
