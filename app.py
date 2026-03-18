@@ -17,7 +17,6 @@ user_text = st.text_area("Enter customer review")
 if st.button("Analyze"):
     if user_text.strip():
         result = model(user_text)[0]
-
         st.success("Analysis Done ✅")
         st.write(f"**Label:** {result['label']}")
         st.write(f"**Confidence:** {round(result['score'], 4)}")
